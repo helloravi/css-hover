@@ -1,0 +1,37 @@
+.red{
+  height: 200px;
+  width: 500px;
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  height: 200px;
+  width: 500px;
+  transition: top 0.3s ease-in;
+  font-size: 3em;
+  position: absolute;
+}
+
+.black {
+  color: white;
+  background-color: black;
+  top: 0;
+}
+
+.white {
+  color: black;
+  background-color: white;
+  top: -200;
+}
+
+
+
+.red:hover .black{
+  top:200;
+}
+
+.red:hover .white{
+  top:0;
+}
